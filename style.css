@@ -58,6 +58,7 @@ a {
 }
 
 .tokens {
+    font-family: 'Righteous', cursive;
     box-shadow: 0 0 10px 2px #FF4754;
     border-style: none;
     outline: none;
@@ -72,6 +73,7 @@ a {
 }
 
 .tokens:focus {
+    font-family: 'Righteous', cursive;
     transition: 0.5s all;
     border: none;
     border-style: none;
@@ -81,18 +83,21 @@ a {
 }
 
 .token-area {
+    font-family: 'Righteous', cursive;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .button {
+    font-family: 'Righteous', cursive;
     display: flex;
     align-items: center;
     justify-content: center; 
 }
 
 .results{
+    font-family: 'Righteous', cursive;
     color: white;
     display: flex;
     align-items: center;
@@ -100,42 +105,51 @@ a {
 }
 
 .results .results-box {
+    font-family: 'Righteous', cursive;
     margin: 0px 25px 0px 25px;
     width: 500px;
     height: 20px;
 }
 
 .results .results-box .title {
+    font-family: 'Righteous', cursive;
     padding: 12px 0 10px 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 .results .valid .title{
+    font-family: 'Righteous', cursive;
     background-color: #00BC8C;
 }
 
 .results .invalid .title{
+    font-family: 'Righteous', cursive;
     background-color: #E74C3C;
 }
 
 .results .unknow .title{
+    font-family: 'Righteous', cursive;
     background-color: #F39C12;
 }
 
 .results .results-box .valid{
+    font-family: 'Righteous', cursive;
     border: 1px solid #00BC8C; 
 }
 
 .results .results-box .invalid{
+    font-family: 'Righteous', cursive;
     border: 1px solid #E74C3C; 
 }
 
 .results .results-box .unknow{
+    font-family: 'Righteous', cursive;
     border: 1px solid #F39C12; 
 }
 
 .results .results-box .body .token-checked {
+    font-family: 'Righteous', cursive;
     padding: 10px 0 5px 10px;
     background-color: #303030;
     font-size: 9px;
@@ -143,18 +157,22 @@ a {
 }
 
 .results .results-box .body .token-checked-invalid {
+    font-family: 'Righteous', cursive;
     border: 1px solid #E74C3C;
 }
 
 .results .results-box .body .token-checked-valid {
+    font-family: 'Righteous', cursive;
     border: 1px solid #00BC8C;
 }
 
 .results .results-box .body .token-checked-unknow {
+    font-family: 'Righteous', cursive;
     border: 1px solid #F39C12;
 }
 
 .button button {
+    font-family: 'Righteous', cursive;
     margin: 45px 0;
     width: 150px;
     height: 40px;
@@ -168,16 +186,19 @@ a {
 }
 
 .button button:hover {
+    font-family: 'Righteous', cursive;
     transition: 0.3s all;
     background-color: #131212;
     box-shadow: 0 0 14px 2px #FF4754;
 }
 
 .fas {
+    font-family: 'Righteous', cursive;
     margin-right: 5px;
 }
 
 .checked-count-invalid {
+    font-family: 'Righteous', cursive;
     background-color: white;
     color: #FF4754;
     border-radius: 100%;
@@ -186,6 +207,7 @@ a {
 }
 
 .checked-count-valid {
+    font-family: 'Righteous', cursive;
     background-color: white;
     color: #00BC8C;
     border-radius: 100%;
@@ -194,6 +216,7 @@ a {
 }
 
 .checked-count-unknow {
+    font-family: 'Righteous', cursive;
     background-color: white;
     color: #F39C12;
     border-radius: 100%;
